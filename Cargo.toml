@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    'node',
+    'runtime',
+    'inks/flipper',
+    'inks/erc20',
+]
+[profile.release]
+panic = 'unwind'
